@@ -1,0 +1,21 @@
+{
+  "name": "spux-modules",
+  "version": "0.0.1",
+  "description": "spux modules",
+  "main": "di.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spux/modules.git"
+  },
+  "keywords": [
+    "spux"
+  ],
+  "author": "Melvin Carvalho <melvincarvalho@gmail.com> (https://melvincarvalho.com/#me)",
+  "bugs": {
+    "url": "https://github.com/spux/modules/issues"
+  },
+  "homepage": "https://github.com/spux/modules#readme"
+}
