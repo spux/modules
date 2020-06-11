@@ -1,6 +1,6 @@
 {
   "name": "spux-modules",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "spux modules",
   "main": "di.js",
   "scripts": {
