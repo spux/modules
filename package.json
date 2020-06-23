@@ -1,6 +1,6 @@
 {
   "name": "spux-modules",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "spux modules",
   "main": "di.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/spux/modules.git"
   },
-  "keywords": ["spux"],
+  "keywords": [
+    "spux"
+  ],
   "author": "Melvin Carvalho <melvincarvalho@gmail.com> (https://melvincarvalho.com/#me)",
   "bugs": {
     "url": "https://github.com/spux/modules/issues"
