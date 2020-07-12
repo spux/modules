@@ -7,8 +7,15 @@ function refreshThis (id) {
         /(<script[^>]*type="application[^>]*>)([\s\S]*?)(<\/script>)/gim,
         '$1' + JSON.stringify(di[id], null, 2) + '$3'
       )
-      if (newhtml !== html) {
-        location.reload()
+
+      if (newhtml.trim() !== html.trim()) {
+        console.log('replacing')
+        di[id] = JSON.parse(
+          html.replace(
+            /(<script[^>]*type="application[^>]*>)([\s\S]*?)(<\/script>[\s\S]*$)/gim,
+            '$2'
+          )
+        )
       }
     })
   )
